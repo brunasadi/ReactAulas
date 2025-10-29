@@ -1,5 +1,10 @@
+import { useState } from "react";
+import { useNavigate } from "react-router-dom"
 
 function Cadastro() {
+const navigate = useNavigate();
+const [isLoading, setIsLoading]=useState<boolean>(false)
+const [confirmarSenha, setConfirmaSenha]= useState<string>("")
 
   return (
     <>
