@@ -1,4 +1,4 @@
-import type Postagem from "./postagem";
+import type Postagem from "./Postagem";
 
 export default interface Usuario {
     id: number;
