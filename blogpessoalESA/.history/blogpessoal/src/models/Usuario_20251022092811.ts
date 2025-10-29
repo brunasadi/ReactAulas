@@ -1,0 +1,1 @@
+import {  } from "module"; type Postagem from "./postagem"
